@@ -1,6 +1,6 @@
-# Salem's (somewhat) minimal dotfiles for SwayFX
+### Salem's (somewhat) minimal dotfiles for SwayFX
 
-## Steps
+### Steps
 
 ```
 git clone https://github.com/rott1ngC0rpse/swayfx-dotfiles.git
