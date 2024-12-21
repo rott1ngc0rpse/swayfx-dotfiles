@@ -46,7 +46,7 @@
     exec_always --no-startup-id mako &
     exec_always --no-startup-id waybar &
     exec_always --no-startup-id autotiling &
-    exec_always --no-startup-id mpd &
+    exec_always --no-startup-id swww-daemon
     exec_always --no-startup-id swaymsg output DP-1 mode 1920x1080@180.003hz
 
 #----------------#
@@ -69,16 +69,18 @@
     client.placeholder      #2e3440 #1f222d #888888
     client.urgent           #D08770 #D08770 #ffffff
     client.background       #242424
+    
 #--------------------------------------------#
 # Set the terminal, app launcer, and mod key #
 #--------------------------------------------#
     set $term alacritty   
-    set $menu wofi --show drun
+    set $menu fuzzel
     set $mod  Mod4
+    
 #-----------#
 # WallPaper #
 #-----------# 
-    exec_always --no-startup-id swaybg -i ~/.config/wallpaper/wallpaper 
+    exec_always --no-startup-id swww ~/.config/wallpaper/wallpaper 
  
 #-------------------------------------------------------#
 # Control volume, monitor brightness, and media players #
@@ -129,8 +131,6 @@
 #--------------#
     # Start a terminal
     bindsym $mod+Return exec --no-startup-id $term
-    bindsym $mod+v exec --no-startup-id $term -e ranger
-    bindsym $mod+n exec --no-startup-id $term -e ncmpcpp
 
     # Take screenshots
     # Screenshot of selected area
@@ -138,18 +138,18 @@
     bindsym $mod+Print exec ~/.config/scripts/screenshot.sh full
 
     # Kill focused window
-    bindsym $mod+Shift+q kill
+    bindsym $mod+q kill
 
     # Start your launcher
     bindsym $mod+d exec $menu
 
     # Reload the configuration file
-    bindsym $mod+Shift+c reload
+    bindsym $mod+Shift+R reload
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exit 
 
-    bindsym $mod+Shift+x exec swaylock
+    bindsym $mod+Escape exec hyprlock
     floating_modifier $mod normal
 
 #----------------#
