@@ -11,7 +11,12 @@ git clone https://aur.archlinux.org/paru && cd paru && makepkg -si
 ```
 
 ```
-paru -S fuzzel waybar ttf-meslo-nerd ttf-jetbrains-mono swayfx swaybg starship slurp rose-pine-cursor ranger vim mako autotiling nusehll grim alacritty arc-gtk-theme papirus-icon-theme && rm -rf ~/paru
+paru -S fuzzel waybar hyprlock ttf-jetbrains-mono-nerd swayfx swww starship slurp rose-pine-cursor ranger vim mako autotiling nusehll grim alacritty arc-gtk-theme papirus-icon-theme && rm -rf ~/paru
+```
+
+my personal pick (optional)
+```
+paru -S vesktop pcmanfm-gtk3 mtpfs mullvad-browser bluez bluez-utils fastfetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs 
 ```
 
 ![Screenshot](images/screenshot.png)
