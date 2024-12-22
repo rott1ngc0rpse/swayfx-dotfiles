@@ -16,7 +16,7 @@ paru -S fuzzel waybar hyprlock ttf-jetbrains-mono-nerd swayfx swww starship slur
 
 my personal pick (optional)
 ```
-paru -S vesktop pcmanfm-gtk3 mtpfs mullvad-browser bluez bluez-utils fastfetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland qt6-wayland qt5-wayland noto-fonts-cjk noto-fonts-emoji-noto-fonts-extra flatpak eog mpv ffmpeg paplay
+paru -S vesktop pcmanfm-gtk3 mtpfs mullvad-browser bluez bluez-utils fastfetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland qt6-wayland qt5-wayland noto-fonts-cjk noto-fonts-emoji-noto-fonts-extra flatpak eog mpv ffmpeg paplay cmus
 ```
 
 ![Screenshot](images/screenshot.png)
