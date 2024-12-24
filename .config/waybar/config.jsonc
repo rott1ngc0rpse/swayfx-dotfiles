@@ -1,5 +1,4 @@
 [{
-    "output": ["DP-1", "eDP-2"],
     "height": 24,
     "spacing": 4,
     "modules-left": [
@@ -62,7 +61,7 @@
     "network": {
         "interval": 5,
         "format-wifi": "  Connected ({signalStrength}%)",
-        "format-ethernet": "  {ifname}: {ipaddr}/{cidr}",
+        "format-ethernet": "󱘖  {ifname}: {ipaddr}/{cidr}",
         "format-disconnected": "⚠  Disconnected",
         "tooltip": false
     },
@@ -96,8 +95,8 @@
         "scroll-step": 5,
         "format": "{icon}  {volume}%",
         "format-bluetooth": "{icon} {volume}% ",
-        "format-bluetooth-muted": " {icon}",
-        "format-muted": "",
+        "format-bluetooth-muted": "󰂲 {icon}",
+        "format-muted": "󰝟",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
